@@ -9,7 +9,7 @@ WORK - makes the app folder as working directory
 
 RUN directive that is calling PyPi (pip) and pointing to the requirements.txt file. This file is listing all the dependencies that the application needs to run.
 
-EXPOSE exposes the port 5000, that is used by Flask framework mentioned in app.py
+EXPOSE exposes the container port 5000, that is used by Flask framework mentioned in app.py
 
 CMD - runs the executable with parameters. In this case, runs the python application by using python’s -m switch with Flask. Refer these links for details - [flask](https://flask.palletsprojects.com/en/1.1.x/quickstart/), [docker](https://docs.docker.com/engine/reference/builder/#cmd) & [python](https://stackoverflow.com/questions/46319694/what-does-it-mean-to-run-library-module-as-a-script-with-the-m-option)
 
